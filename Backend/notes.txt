@@ -1,0 +1,78 @@
+Blueprint
+
+Goal: to create a website (Ecommerce website) 
+frontend: Design -> using html,css
+                   optimise-> reactjs
+content -> Text, Images, Videos
+Backend -> server-> Nodejs, Express js \
+Database -> Mongodb, Mongoose(connects specific constrains to mongo db , moongose is the package that helps yo write mongodb command in javascript format )
+
+Requirements:
+1. Nodejs  -> server handling
+2. Expressjs  -> server handling
+3. Mongodb  -> database handling
+4. React and html and css(bootstrap, tailwind, material ui, chakra ui) -> frontend handling.
+
+Dependencies :
+1. npm install express
+2. npm install Mongoose
+3. npm install nodemon
+4. npm install dotenv
+5. npm install colors
+6. npm install morgan 
+7. npm install jsonwebtoken
+8. npm install bcryptjs
+9. npm install cors
+10. npm install axions
+
+HOW TO START A PROJECT
+1. create a folder
+2. open the folder in VS code 
+3. create a .env file in the root directory and add the following code in it :
+PORT =600
+DB_URI= mongodb+srv://(mongodb ka connection string )
+Mode of operation(konse mode mai project phase hai deployement ya fir production)
+
+4. create a package.json file in the root directory and add the folloing code in it :
+"name" : :ecommerce"
+"version": "1.00"
+"main" :"server.js"
+"description" : "this is a ecomerce website"
+"scripts" : { 
+    "start" : nodemon iserver.js"
+    }
+    "dependencies": "all files required to run the project"
+5. create a server.js file in the root directpry and add th following code in it .
+
+6. server.js is the starting points of the projects from backend perspective .
+
+7. we have to create different 
+middlewares routes and controllers to exxecutes the projects .
+
+8. create a folder named controllers in the root directory.(which will going to run the particular functions).
+
+9.  create a folder name roues in the root directory .( which will going to handle diffrentrouting points).
+
+10. create a folder named models in the root directory.( where we will going to store the design of the database).
+
+11. create a folder named middlewares in the root directory .(which will going to handle the middlewares(bridges)of the projects).
+
+12. create a folder named utils in the root directory. (which will going to handle the utility functions).
+
+13. create a folder named config in the root directory.( which will going to handle the configuration of database).
+
+// javascript topics required
+1. oops concepts
+2. ES6 concepts
+3. async and await concepts
+4. promises concepts
+5. callbacks concepts
+6. nodejs concepts 
+7. Express.js concepts
+8. Mongoose concepts
+9. MongoDB concepts
+10. JWT concepts
+11. Bcryptjs concepts
+12. Axios concepts
+13. Cors concepts
+14. Morgan concepts
